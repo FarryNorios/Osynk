@@ -1,0 +1,158 @@
+{
+  "@@locale": "en",
+  "appTitle": "Osynk",
+  "sync": "Sync",
+  "syncSubtitle": "Tap to start syncing",
+  "loadingLogin": "Loading login info...",
+  "startSync": "Start Sync",
+  "syncing": "Syncing",
+  "cancelling": "Cancelling...",
+  "cancelSync": "Cancel Sync",
+  "log": "Log",
+  "logSubtitle": "Tap to view full log",
+  "noLogs": "No sync logs yet",
+  "account": "Account",
+  "accountSubtitle": "Manage your account settings",
+  "loginMicrosoft": "Sign in with Microsoft",
+  "unknownUser": "Unknown User",
+  "unknownEmail": "Unknown Email",
+  "confirmLogout": "Confirm Logout",
+  "confirmLogoutMessage": "You need to sign in again after logging out.",
+  "cancel": "Cancel",
+  "logout": "Logout",
+  "syncTasks": "Sync Tasks",
+  "syncTasksSubtitle": "Manage your sync tasks",
+  "noTasks": "No sync tasks yet",
+  "addTask": "Add Sync Task",
+  "editTask": "Edit Sync Task",
+  "taskName": "Task Name",
+  "taskNameRequired": "Task name is required",
+  "localPath": "Local Path",
+  "localPathRequired": "Local path is required",
+  "remotePath": "Remote Path",
+  "remotePathRequired": "Remote path is required",
+  "save": "Save",
+  "delete": "Delete",
+  "bidirectional": "Bidirectional",
+  "uploadMirror": "Upload Mirror",
+  "downloadMirror": "Download Mirror",
+  "fullLog": "Full Log",
+  "clearLog": "Clear Log",
+  "noLogRecords": "No log records yet",
+  "logCount": "{count} entries",
+  "@logCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "latestLog": "Latest Log",
+  "selectFile": "Select File/Folder",
+  "emptyFolder": "Empty Folder",
+  "select": "Select",
+  "internalStorage": "Internal Storage",
+  "noFolderPermission": "No permission to access this folder",
+  "needStoragePermission": "Storage permission required",
+  "settings": "Settings",
+  "appearance": "Appearance",
+  "followSystem": "Follow System",
+  "light": "Light",
+  "dark": "Dark",
+  "themeColor": "Theme Color",
+  "language": "Language",
+  "chinese": "中文",
+  "english": "English",
+  "syncStateIdle": "Idle",
+  "syncStateStarting": "Starting all sync tasks",
+  "syncStateCancelled": "Sync cancelled",
+  "syncStateAllDone": "All sync tasks completed",
+  "syncStatePartialFail": "Sync interrupted, some tasks failed",
+  "syncStateProgress": "Syncing: {name}",
+  "@syncStateProgress": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "syncStateDone": "Sync completed: {name}",
+  "@syncStateDone": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "syncStateFailed": "Sync failed: {error}",
+  "@syncStateFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "uploadingFile": "Uploading: {name}",
+  "@uploadingFile": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "downloadingFile": "Downloading: {name}",
+  "@downloadingFile": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "notifSyncing": "Syncing",
+  "notifComplete": "Sync Complete",
+  "notifFailed": "Sync Failed",
+  "notifChannelName": "Sync Notifications",
+  "notifChannelDesc": "File sync progress notifications",
+  "filesTransferred": "{completed} / {total} files",
+  "@filesTransferred": {
+    "placeholders": {
+      "completed": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "logCancelRequested": "User requested cancel...",
+  "logSyncInProgress": "Sync already in progress",
+  "logLoadingLogin": "Loading login info, please wait",
+  "logPleaseLogin": "Please login first",
+  "logNoEnabledTasks": "No enabled sync tasks",
+  "logStartingAll": "Starting all sync tasks",
+  "logStartingTask": "Starting task: {name}",
+  "@logStartingTask": { "placeholders": { "name": { "type": "String" } } },
+  "logTaskStopped": "Task stopped: {name}",
+  "@logTaskStopped": { "placeholders": { "name": { "type": "String" } } },
+  "logSyncCancelled": "Sync cancelled",
+  "logAllTasksCompleted": "All sync tasks completed",
+  "logTaskStarted": "Task started: {name}",
+  "@logTaskStarted": { "placeholders": { "name": { "type": "String" } } },
+  "logVerifyingRemote": "Verifying remote connection...",
+  "logRunningUpload": "Running upload mirror",
+  "logRunningDownload": "Running download mirror",
+  "logRunningBidirectional": "Running bidirectional sync (upload then download)",
+  "logSyncCompleted": "Sync completed: {name}",
+  "@logSyncCompleted": { "placeholders": { "name": { "type": "String" } } },
+  "logSyncCancelledTask": "Sync cancelled: {name}",
+  "@logSyncCancelledTask": { "placeholders": { "name": { "type": "String" } } },
+  "logSyncFailed": "Sync failed: {error}",
+  "@logSyncFailed": { "placeholders": { "error": { "type": "String" } } },
+  "logUploaded": "Uploaded [{index}/{total}]: {name} ({size})",
+  "@logUploaded": { "placeholders": { "index": { "type": "int" }, "total": { "type": "int" }, "name": { "type": "String" }, "size": { "type": "String" } } },
+  "logUploadDone": "Upload done: {dirs} dirs, {files} files",
+  "@logUploadDone": { "placeholders": { "dirs": { "type": "int" }, "files": { "type": "int" } } },
+  "logCreatedLocalDir": "Created local dir: {path}",
+  "@logCreatedLocalDir": { "placeholders": { "path": { "type": "String" } } },
+  "logDownloadingDir": "Downloading dir: {path}",
+  "@logDownloadingDir": { "placeholders": { "path": { "type": "String" } } },
+  "logScanningRemote": "Scanning remote files...",
+  "logScanDone": "Scan done: {files} files, {size}",
+  "@logScanDone": { "placeholders": { "files": { "type": "int" }, "size": { "type": "String" } } },
+  "logScanFailed": "Failed to scan remote dir: {path}",
+  "@logScanFailed": { "placeholders": { "path": { "type": "String" } } },
+  "logRemoteDirEmpty": "Remote dir empty: {path}",
+  "@logRemoteDirEmpty": { "placeholders": { "path": { "type": "String" } } },
+  "logDownloaded": "Downloaded [{index}]: {name} ({size})",
+  "@logDownloaded": { "placeholders": { "index": { "type": "int" }, "name": { "type": "String" }, "size": { "type": "String" } } },
+  "logDownloadRetry": "Download failed (attempt {attempt}), retrying: {name} - {error}",
+  "@logDownloadRetry": { "placeholders": { "attempt": { "type": "int" }, "name": { "type": "String" }, "error": { "type": "String" } } },
+  "logDownloadFailed": "Download failed (3 attempts): {name} - {error}",
+  "@logDownloadFailed": { "placeholders": { "name": { "type": "String" }, "error": { "type": "String" } } },
+  "logCreatedRemoteDir": "Created remote dir: {path}",
+  "@logCreatedRemoteDir": { "placeholders": { "path": { "type": "String" } } }
+}

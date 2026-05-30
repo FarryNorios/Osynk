@@ -1,0 +1,158 @@
+{
+  "@@locale": "zh",
+  "appTitle": "Osynk",
+  "sync": "同步",
+  "syncSubtitle": "点击按钮开始同步",
+  "loadingLogin": "正在加载登录信息...",
+  "startSync": "开始同步",
+  "syncing": "正在同步",
+  "cancelling": "正在取消...",
+  "cancelSync": "取消同步",
+  "log": "日志",
+  "logSubtitle": "点击查看完整日志",
+  "noLogs": "暂无同步日志",
+  "account": "账户",
+  "accountSubtitle": "管理您的账户设置",
+  "loginMicrosoft": "登录 Microsoft 账户",
+  "unknownUser": "未知用户",
+  "unknownEmail": "未知邮箱",
+  "confirmLogout": "确认登出",
+  "confirmLogoutMessage": "登出后需要重新登录才能同步文件。",
+  "cancel": "取消",
+  "logout": "登出",
+  "syncTasks": "同步任务",
+  "syncTasksSubtitle": "管理您的同步任务",
+  "noTasks": "暂无同步任务",
+  "addTask": "添加同步任务",
+  "editTask": "编辑同步任务",
+  "taskName": "任务名称",
+  "taskNameRequired": "任务名称不能为空",
+  "localPath": "本地路径",
+  "localPathRequired": "本地路径不能为空",
+  "remotePath": "远程路径",
+  "remotePathRequired": "远程路径不能为空",
+  "save": "保存",
+  "delete": "删除",
+  "bidirectional": "双向同步",
+  "uploadMirror": "上传镜像",
+  "downloadMirror": "下载镜像",
+  "fullLog": "完整日志",
+  "clearLog": "清空日志",
+  "noLogRecords": "暂无日志记录",
+  "logCount": "{count} 条",
+  "@logCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "latestLog": "最新日志",
+  "selectFile": "选择文件/文件夹",
+  "emptyFolder": "空文件夹",
+  "select": "选择",
+  "internalStorage": "内部存储",
+  "noFolderPermission": "没有权限访问该文件夹",
+  "needStoragePermission": "需要存储权限",
+  "settings": "设置",
+  "appearance": "外观",
+  "followSystem": "跟随系统",
+  "light": "浅色",
+  "dark": "深色",
+  "themeColor": "主题色",
+  "language": "语言",
+  "chinese": "中文",
+  "english": "English",
+  "syncStateIdle": "未在同步",
+  "syncStateStarting": "开始同步全部任务",
+  "syncStateCancelled": "同步已取消",
+  "syncStateAllDone": "全部同步任务完成",
+  "syncStatePartialFail": "同步中断，部分任务失败",
+  "syncStateProgress": "同步进行中：{name}",
+  "@syncStateProgress": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "syncStateDone": "同步完成：{name}",
+  "@syncStateDone": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "syncStateFailed": "同步失败：{error}",
+  "@syncStateFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "uploadingFile": "上传中：{name}",
+  "@uploadingFile": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "downloadingFile": "下载中：{name}",
+  "@downloadingFile": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "notifSyncing": "正在同步",
+  "notifComplete": "同步完成",
+  "notifFailed": "同步失败",
+  "notifChannelName": "同步通知",
+  "notifChannelDesc": "文件同步进度通知",
+  "filesTransferred": "{completed} / {total} 个文件",
+  "@filesTransferred": {
+    "placeholders": {
+      "completed": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "logCancelRequested": "用户请求取消...",
+  "logSyncInProgress": "已有同步任务正在进行中",
+  "logLoadingLogin": "正在加载登录信息，请稍后再试",
+  "logPleaseLogin": "请先登录后再执行同步",
+  "logNoEnabledTasks": "没有启用的同步任务",
+  "logStartingAll": "开始同步全部任务",
+  "logStartingTask": "开始任务：{name}",
+  "@logStartingTask": { "placeholders": { "name": { "type": "String" } } },
+  "logTaskStopped": "任务停止：{name}",
+  "@logTaskStopped": { "placeholders": { "name": { "type": "String" } } },
+  "logSyncCancelled": "同步已取消",
+  "logAllTasksCompleted": "全部同步任务完成",
+  "logTaskStarted": "任务开始：{name}",
+  "@logTaskStarted": { "placeholders": { "name": { "type": "String" } } },
+  "logVerifyingRemote": "验证远程连接...",
+  "logRunningUpload": "执行上传镜像",
+  "logRunningDownload": "执行下载镜像",
+  "logRunningBidirectional": "执行双向同步（先上传后下载）",
+  "logSyncCompleted": "同步完成：{name}",
+  "@logSyncCompleted": { "placeholders": { "name": { "type": "String" } } },
+  "logSyncCancelledTask": "同步已取消：{name}",
+  "@logSyncCancelledTask": { "placeholders": { "name": { "type": "String" } } },
+  "logSyncFailed": "同步失败：{error}",
+  "@logSyncFailed": { "placeholders": { "error": { "type": "String" } } },
+  "logUploaded": "上传文件 [{index}/{total}]：{name}（{size}）",
+  "@logUploaded": { "placeholders": { "index": { "type": "int" }, "total": { "type": "int" }, "name": { "type": "String" }, "size": { "type": "String" } } },
+  "logUploadDone": "上传完成：{dirs} 个目录，{files} 个文件",
+  "@logUploadDone": { "placeholders": { "dirs": { "type": "int" }, "files": { "type": "int" } } },
+  "logCreatedLocalDir": "创建本地目录：{path}",
+  "@logCreatedLocalDir": { "placeholders": { "path": { "type": "String" } } },
+  "logDownloadingDir": "下载目录：{path}",
+  "@logDownloadingDir": { "placeholders": { "path": { "type": "String" } } },
+  "logScanningRemote": "正在扫描远程文件...",
+  "logScanDone": "扫描完成：{files} 个文件，{size}",
+  "@logScanDone": { "placeholders": { "files": { "type": "int" }, "size": { "type": "String" } } },
+  "logScanFailed": "扫描远程目录失败：{path}",
+  "@logScanFailed": { "placeholders": { "path": { "type": "String" } } },
+  "logRemoteDirEmpty": "远程目录为空：{path}",
+  "@logRemoteDirEmpty": { "placeholders": { "path": { "type": "String" } } },
+  "logDownloaded": "下载文件 [{index}]：{name}（{size}）",
+  "@logDownloaded": { "placeholders": { "index": { "type": "int" }, "name": { "type": "String" }, "size": { "type": "String" } } },
+  "logDownloadRetry": "下载失败（第 {attempt} 次），重试：{name} - {error}",
+  "@logDownloadRetry": { "placeholders": { "attempt": { "type": "int" }, "name": { "type": "String" }, "error": { "type": "String" } } },
+  "logDownloadFailed": "下载失败（已重试 3 次）：{name} - {error}",
+  "@logDownloadFailed": { "placeholders": { "name": { "type": "String" }, "error": { "type": "String" } } },
+  "logCreatedRemoteDir": "创建远程目录：{path}",
+  "@logCreatedRemoteDir": { "placeholders": { "path": { "type": "String" } } }
+}
