@@ -28,13 +28,8 @@ Osynk is a OneDrive file sync tool for Android, built with Flutter.
 ## ✨ Features
 
 - 🔐 Microsoft OneDrive OAuth login
-- 📋 Multi-task sync management (CRUD)
 - 🔄 Three sync modes: bidirectional / upload mirror / download mirror
-- 📊 Real-time sync progress (streaming download progress, speed, percentage)
-- 📝 Sync log recording and viewing
-- 📁 Local/remote folder picker
-- 🎨 Material 3 theming with custom seed color
-- 🌐 Chinese / English bilingual UI
+- 🎨 Material 3
 
 ## 🛠️ Development
 
