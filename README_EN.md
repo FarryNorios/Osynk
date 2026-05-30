@@ -56,5 +56,5 @@ flutter build apk        # 📦 Build APK
 ---
 
 <p align="center">
-  <sub>For educational use only / 仅供学习使用。</sub>
+  <sub>For educational use only</sub>
 </p>
